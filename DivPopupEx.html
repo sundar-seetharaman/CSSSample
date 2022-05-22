@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div Popup</title>
+  <style>
+    .container {
+      margin: 1em;
+      display: grid;
+      background: #ddd;
+      grid-template-columns: repeat(5, 1fr);
+      grid-auto-rows: minmax(250px, auto);
+      grid-gap: 1em;
+      justify-content: center;
+    }
+
+    .container>div {
+      background: orange;
+      transition: 1s;
+      padding: 1em;
+      margin: 1em;
+
+    }
+
+    .container>div:hover {
+      transform: scale(1.1);
+      background: #ff800a;
+      box-shadow: 2px 2px 2px #000;
+      z-index: 2;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit laborum ipsum consequatur
+      voluptatum autem. Cumque quia nesciunt dolorum consequatur, distinctio magnam dolores molestias. Quidem,
+      soluta cupiditate! Adipisci saepe distinctio doloremque.</div>
+    <div class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit laborum ipsum consequatur
+      voluptatum autem. Cumque
+      quia nesciunt dolorum consequatur, distinctio magnam dolores molestias. Quidem, soluta cupiditate! Adipisci
+      saepe
+      distinctio doloremque.</div>
+    <div class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit laborum ipsum consequatur
+      voluptatum autem. Cumque
+      quia nesciunt dolorum consequatur, distinctio magnam dolores molestias. Quidem, soluta cupiditate! Adipisci
+      saepe
+      distinctio doloremque.</div>
+    <div class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit laborum ipsum consequatur
+      voluptatum autem. Cumque
+      quia nesciunt dolorum consequatur, distinctio magnam dolores molestias. Quidem, soluta cupiditate! Adipisci
+      saepe
+      distinctio doloremque.</div>
+    <div class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit laborum ipsum consequatur
+      voluptatum autem. Cumque
+      quia nesciunt dolorum consequatur, distinctio magnam dolores molestias. Quidem, soluta cupiditate! Adipisci
+      saepe
+      distinctio doloremque.</div>
+    <div class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit laborum ipsum consequatur
+      voluptatum autem. Cumque
+      quia nesciunt dolorum consequatur, distinctio magnam dolores molestias. Quidem, soluta cupiditate! Adipisci
+      saepe
+      distinctio doloremque.</div>
+  </div>
+</body>
+
+</html>
